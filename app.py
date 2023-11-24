@@ -49,7 +49,7 @@ def recommended_recipe_list():
     recipe_list_deleted_label = recipe_list[1:]
 
     # シードを固定
-    random.seed(1)
+    # random.seed(1)
 
     # ランダムに10件のレシピを取得
     result_list = random.sample(recipe_list_deleted_label, 10)
