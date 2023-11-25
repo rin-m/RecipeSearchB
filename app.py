@@ -66,7 +66,7 @@ def recommended_recipe_list():
 # リストをcsvファイルに書き込む
 def write_csv(list):
     DATE = datetime.now().strftime("%Y%m%d_%H%M%S")
-    FILE_NAME = "./result/data_"+DATE+".csv"
+    FILE_NAME = "./result/B_data_"+DATE+".csv"
     with open(FILE_NAME, 'w', newline='') as f:
         writer = csv.writer(f)
         for row in list:
